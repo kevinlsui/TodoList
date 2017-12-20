@@ -101,6 +101,9 @@
 	var htmlarr = [];//按照日期倒序
 	var html = '';
 	for(var si in storage){
+		if(si == 'length'){
+		  continue;
+		   }
 		if(si != key){
 			var html = '';
 			html += '<div class="his_title">'+
