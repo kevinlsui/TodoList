@@ -111,7 +111,7 @@
 						'<div class="his_clear" ref="'+si+'">清除</div>'+
 					'</div>'+
 					'<ul class="list" id ="'+si+'">';
-			var his_list = JSON.parse(storage[si]);
+			var his_list = storage[si];//JSON.parse(storage[si]);
 			for(var lii in his_list){
 				
 				if(his_list[lii].done){
